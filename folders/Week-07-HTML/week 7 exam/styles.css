@@ -1,0 +1,103 @@
+#titleText{
+    color:black;
+    margin: auto;
+    border: auto;
+    border-style:solid;
+    border-radius: 5px;
+    border-color: black;
+    padding: 20px;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    text-decoration: underline;
+    animation-name: move;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+ul.a{
+   list-style-type: none;
+   margin: 0;
+   padding: 10 px;
+   background-color: rebeccapurple;
+   border: 3px solid black;
+   
+   border-radius: 5px;
+}
+
+li.a{
+    display: inline;
+}
+
+a:hover, a:visited{
+    background-color: blueviolet;
+}
+a:active{
+    background-color: aqua;
+}
+
+
+
+@keyframes move {
+    0% {background-color: rgb(170, 0, 255);}
+    25%{background-color: blueviolet;}
+    50% {background-color: violet;}
+    75% {background-color: rgb(238, 130, 215);}
+    100%{background-color: rgb(238, 130, 188);}
+    
+    
+} 
+#table td, #table th{
+    border: 3px solid greenyellow;
+}
+#table tr:nth-child(even){
+    background-color: gray;
+}
+#table tr:nth-child(odd){
+    background-color: red;
+}
+#table tr:hover {
+    background-color: blueviolet;
+}
+#table th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: black;
+    color: antiquewhite;
+}
+#table td{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    
+}
+#table{
+    width: 100%;
+}
+#img{
+    width: 100%;
+    
+}
+
+#text{
+    color: black;
+    padding: 20px;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    text-decoration: underline;
+    animation-name: move;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    margin: 0px;
+    padding: 0;
+    border: 2px solid hotpink;
+
+}
+
+li.b{
+    background: #ffe5e5;
+  color: darkred;
+  padding: 5px;
+  margin-left: 35px;
+}
